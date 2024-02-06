@@ -7,11 +7,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <header>
-          <h1>
-            Welcome to RestyWant!
-          </h1>
-        </header>
         <div>
             <Business/>
         </div>

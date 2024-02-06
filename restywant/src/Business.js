@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import BusinessList from './BusinessList';
+import SearchBar from './SearchBar';
 
 // const BusinessObject = {
 //     name: 'Mike\'s Food Trough',
@@ -19,6 +20,7 @@ function Business() {
     <div>
         <header><h1>Restuarants</h1></header>
         <p>Current list of restaurants</p>
+        <SearchBar />
         <ul id='left-align'><BusinessList /></ul>
     </div>
     )
